@@ -1,0 +1,41 @@
+#labels Minutes,Changessummary
+Finalized solar modification:
+
+SCORING
+=> Increasing and tabulation systems
+   # Increased by :
+     - Solar energy yg terkumpul (siang)
+     - Jumlah nyamuk (malem)
+   # Tabulated score
+     - Sisa HP
+     - Sisa solar energy
+     - Sisa waktu (skor dalam range waktu tertentu)
+
+LOSING CONDITION
+=> Energy and health based
+   # If health OR energy reaches 0, the game is over.
+
+WINNING CONDITION
+=> Number of nyamuk
+   # If NOT lose and number of nyamuk reaches 0, win.
+   # Then, score is tabulated.
+   # Then, input name in Ending screen
+   # Finally, display score board
+
+SCORE BOARD
+=> Display Name and Score
+
+DIFFICULTY ADJUSTMENT
+=> Add number of nyamuk (10-30) -> need more testing
+
+GUI CHANGES
+=> Siang
+   - Score at upper right corner
+   - Energy bar removed (dirubah jadi semacam tas ransel yg digendong sama karakter)
+=> Malem
+   - Health bar dibuat supaya lebih jelas (misal pake "hati")
+   - Energy bar removed (lihat siang)
+   - Score tabulated waktu animasi happy (add next button to proceed to ending)
+=> Common GUI
+   - Instruction (dibagi siang dan malem ato dijadiin satu aja sebelum game mulai)
+   - Credit removed (pasang link kecil di title screen yg bisa nampilin credit)
