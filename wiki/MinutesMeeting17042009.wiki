@@ -2,6 +2,7 @@
 Finalized solar modification:
 
 SCORING
+
 => Increasing and tabulation systems
    # Increased by :
      - Solar energy yg terkumpul (siang)
@@ -12,10 +13,12 @@ SCORING
      - Sisa waktu (skor dalam range waktu tertentu)
 
 LOSING CONDITION
+
 => Energy and health based
    # If health OR energy reaches 0, the game is over.
 
 WINNING CONDITION
+
 => Number of nyamuk
    # If NOT lose and number of nyamuk reaches 0, win.
    # Then, score is tabulated.
@@ -23,12 +26,15 @@ WINNING CONDITION
    # Finally, display score board
 
 SCORE BOARD
+
 => Display Name and Score
 
 DIFFICULTY ADJUSTMENT
+
 => Add number of nyamuk (10-30) -> need more testing
 
 GUI CHANGES
+
 => Siang
    - Score at upper right corner
    - Energy bar removed (dirubah jadi semacam tas ransel yg digendong sama karakter)
